@@ -1,14 +1,1 @@
-{
-  "socketPath": "\\\\.\\pipe\\mcp-74f04d54-c928-4fc9-a80f-e80090af1f46.sock",
-  "scheme": "pipe",
-  "headers": {
-    "Authorization": "Nonce c1fcb8b0-b16c-4004-a76d-37b92599da42"
-  },
-  "pid": 28004,
-  "ideName": "Visual Studio Code",
-  "timestamp": 1782412344855,
-  "workspaceFolders": [
-    "c:\\Users\\Dell\\Desktop\\Cipher puzzle"
-  ],
-  "isTrusted": true
-}
+
