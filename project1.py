@@ -5,19 +5,19 @@ import sys      # Lets us exit the program cleanly
 # --- Setup ---
 pygame.init()  # Start up pygame (always needed first)
 
-WIDTH, HEIGHT = 800, 600             # Size of the window in pixels
+WIDTH, HEIGHT = 800, 400             # Size of the window in pixels
 screen = pygame.display.set_mode((WIDTH, HEIGHT))  # Create the window
 pygame.display.set_caption("Bouncing Ball")        # Window title
 
 clock = pygame.time.Clock()  # Used to control how fast the animation runs
 
 # --- Ball properties ---
-ball_x = 100    # Starting X position (horizontal)
-ball_y = 100    # Starting Y position (vertical)
-ball_radius = 25
+ball_x = 110    # Starting X position (horizontal)
+ball_y = 120    # Starting Y position (vertical)
+ball_radius = 27
 
-speed_x = 5     # How many pixels to move right each frame
-speed_y = 4     # How many pixels to move down each frame
+speed_x = 10     # How many pixels to move right each frame
+speed_y = 10    # How many pixels to move down each frame
 
 BALL_COLOR  = (93, 202, 165)   # Teal  (Red, Green, Blue — values 0-255)
 BG_COLOR    = (30, 30, 30)     # Dark background
